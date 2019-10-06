@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+    header ,footer{
+        background-image: url(img/image5.jpeg);
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 5px;
+        margin: 0;
+        
+    }
+    nav {
+        background-color: black;
+        margin: 0;
+        padding:7px;
+        
+        
+        
+        
+    }
+    nav ul {
+        padding: 7px;
+        border-radius: 10px;
+        
+     }
+     nav ul li a{
+         padding: 7px;
+         margin: 10px;
+     }
+    nav ul li a:hover{
+        background-color: brown;
+        
+    }
+    nav ul li a.active{
+        background-color:burlywood;
+        border-radius: 7px;
+        text-decoration: none;
+    }
+    aside{
+        background-color:black;
+        width: 150px;
+    
+        text-align: center;
+        float: left;
+        border-right: 2px solid grey;
+        height: 220px;
+        overflow-y: scroll;
+        
+    }
+    aside ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+        
+        
+    }
+    aside ul li a{
+        padding: 7px 15px;
+        margin: 20px;
+        display: block;
+        text-decoration: none;
+        background-color: aquamarine;
+        text-align: center;
+        border-radius: 10px;
+
+        
+        
+    }
+    aside ul li a:hover{
+        background-color: black;
+    }
+    section{
+        margin-left: 150px;
+        padding: 10px;
+        border: 2px solid black;
+    }
+    details{
+        background-color:  gray;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 7px;
+        color: white;
+    }
+    article{
+        background-color: lightgrey;
+        color: black;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    summary{
+        outline: none;
+    }
+        footer{
+            margin: 0;
+            padding: 5px;
+            height: 140px;;
+        }
+        aside ul li a.active{
+            background-color: gray;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MSNR</h1>
+        <p>IOT Company</p>
+        <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem laudantium nobis architecto itaque aliquam ullam totam tenetur facere nostrum quam a quia, impedit cupiditate, maiores molestias! Sunt error totam dignissimos!</small>
+
+    </header>
+    
+    <nav>
+        <ul>
+            <li>
+                <a href="#" class="active">Home</a>
+                <a href="#">Prroject</a>
+                <a href="#">CSS</a>
+                <a href="#">JAVA</a>
+                <a href="#">IONIC</a>
+            </li>
+        </ul>
+    </nav>
+    <aside>
+            <ul>
+                <li>
+                    
+                    <a href="#" class="active">Home</a>
+                    <a href="#">Prroject</a>
+                    <a href="#">CSS</a>
+                    <a href="#">JAVA</a>
+                    <a href="#">IONIC</a>
+                    <a href="#">Home</a>
+                    <a href="#">Prroject</a>
+                    <a href="#">CSS</a>
+                    <a href="#">JAVA</a>
+                    <a href="#">IONIC</a>
+                </li>
+            </ul>
+        </aside>
+        <!--section-->
+        <section>
+
+            <details>
+                <summary>HTML</summary>
+                <article>
+                    <h3>HTML</h3>
+               
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ducimus harum, ipsum autem eligendi in doloribus deserunt quidem odio ipsam ratione temporibus. Deserunt qui exercitationem, vero aut sequi expedita beatae!</p>
+                </article>
+                </details>
+            
+            <details>
+                <summary>CSS</summary>
+                <article>
+                    <h3>CSS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ducimus harum, ipsum autem eligendi in doloribus deserunt quidem odio ipsam ratione temporibus. Deserunt qui exercitationem, vero aut sequi expedita beatae!</p>
+                </article>
+            </details>
+            
+            <details>
+                <summary>BOOTSTRAP</summary>
+                <article>
+                    <h3>BOOTSTRAP</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ducimus harum, ipsum autem eligendi in doloribus deserunt quidem odio ipsam ratione temporibus. Deserunt qui exercitationem, vero aut sequi expedita beatae!</p>
+                </article>
+            </details>
+            
+            <details>
+
+                <summary>JAVASCRIPT</summary>
+                <article>
+                    <h3>JAVASCRIPT</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ducimus harum, ipsum autem eligendi in doloribus deserunt quidem odio ipsam ratione temporibus. Deserunt qui exercitationem, vero aut sequi expedita beatae!</p>
+                </article>
+            </details>
+        </section>
+            <footer>
+                    <p>All Rights Reserved</p>
+                <p>Copyrights &copy; 2019</p>
+            </footer>
+        </body>
+        </html>

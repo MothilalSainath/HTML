@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Job Application Form</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: rgb(2, 41, 99);
+            color: rgb(68, 103, 134);
+        }
+        h2{
+            background-color: rgba(16, 15, 92, 0.548);
+            color:  rgb(68, 103, 134);
+        
+            font-family: sans-serif;
+            padding: 5px;
+            border-radius: 10px;
+            
+            
+            
+        }
+        td{
+            padding:10px;
+        
+        }
+        textarea{
+            border-radius: 10px;
+        }
+        input{
+            height: 20px;
+        
+            border-radius: 10px; 
+        }
+        input:focus,textarea{
+            outline: none;
+            border: 2px solid royalblue;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1 align="center">Online job Application form</h1>
+    <form action="">
+        <div id="personal Infromation">
+            <h2 align="center">Personal Infromation</h2>
+            <table width="100%">
+                <tr>
+                    <td>First name</td>
+                    <td><input type="text" size="25"></td>
+                    <td>Middle Name</td>
+                    <td><input type="text" size="25"></td>
+                    <td>Last Name</td>
+                    <td><input type="text" size="25"></td>                    
+                </tr>
+                <tr>
+                    <td>Father Name</td>
+                    <td><input type="text" size="25"></td>
+                    <td>Mother Name</td>
+                    <td><input type="text" size="25"></td>
+                </tr>
+                <tr>
+                    <td>current address</td>
+                    <td><textarea rows="7" cols="30" size="25"></textarea></td>
+                    <td>Perminanat Address</td>
+                    <td><textarea rows="7" cols="30" size="25"> </textarea></td>
+
+                </tr>
+                <tr>
+                    <td>Phone Numbers</td>
+                </tr>
+                <tr>
+                    <td>Land Line</td>
+                    <td><input type="text" size="25"></td>
+                    <td>Mobile</td>
+                    <td><input type="text" size="25"></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr >
+                    <td colspan="2">Select Gender</td>
+                    <td><input type="checkbox" name="sai">male</td>
+                    <td><input type="checkbox" name="sai">female </td>
+                    <td><input type="checkbox" name="sai">other</td>
+                </tr>
+                <tr>
+                <td>About Yourself</td>
+                <td> <textarea name="" id="" cols="30" rows="7"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Nationality</td>
+                    <td>
+                    <select name="" id="">
+                        <option value="">indian</option>
+                        <option value="">spanish</option>
+                        <option value="">italian</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>adaarcard</td>
+                    <td><input type="text" size="25"></td>
+                    <td>pancard</td>
+                    <td><input type="text" size="25"></td>
+                </tr>
+                
+
+
+
+            </table>
+        </div>
+    </form>
+    <form action="" >
+        <div>
+        <label for=""><h2 align="center">Education Details</h2></label>
+        <table width="100%">
+            <tr>
+                <td >num</td>
+                <td>qualification</td>
+                <td>instituteluniversity</td>
+                <td>year of passing</td>
+                <td>percentage</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><input type="text" size="25"></td>
+                <td><input type="text" size="25"></td>
+                <td><input type="number" size="25"></td>
+                <td><input type="number" min="0" max="100" name="" id=""></td>
+            </tr>
+            <tr>
+                    <td>2</td>
+                    <td><input type="text" size="25"></td>
+                    <td><input type="text" size="25"></td>
+                    <td><input type="number" size="25"></td>
+                    <td><input type="number" min="0" max="100" name="" id=""></td>
+                </tr>
+                <tr>
+                        <td>3</td>
+                        <td><input type="text" size="25"></td>
+                        <td><input type="text" size="25"></td>
+                        <td><input type="number" size="25"></td>
+                        <td><input type="number" min="0" max="100" name="" id=""></td>
+                    </tr>
+        </table>
+        </div>
+    </form>
+    <form action="">
+        <div>
+            <h2 align="center">Work Eperience1</h2>
+            <table width="100%">
+                <tr>
+                    <td>S.no</td>
+                    <td>Company Address</td>
+                    <td>work/roles</td>
+                    <td>Duration(From)</td>
+                    <td>(to)</td>
+                </tr>
+                <td>1</td>
+                <td><textarea name="" id="" cols="20" rows="7"></textarea></td>
+                <td><textarea name="" id="" cols="20" rows="7"></textarea></td>
+                <td><input type="date"></td>
+                <td><input type="date" name="" id=""></td>
+            </table>
+        </div>
+        <div>
+                <h2 align="center">Work Eperience2</h2>
+                <table width="100%">
+                    <tr>
+                        <td>S.no</td>
+                        <td>Company Address</td>
+                        <td>work/roles</td>
+                        <td>Duration(From)</td>
+                        <td>(to)</td>
+                    </tr>
+                    <td>1</td>
+                    <td><textarea name="" id="" cols="20" rows="7"></textarea></td>
+                    <td><textarea name="" id="" cols="20" rows="7"></textarea></td>
+                    <td><input type="date"></td>
+                    <td><input type="date" name="" id=""></td>
+                </table>
+            </div>
+    </form>
+    <form action="">
+        <div>
+            <h2 align="center">Other Details</h2>
+            <table width="100%">
+                <tr>
+                    <td colspan="2"> job type</td>
+                    <td><input type="checkbox" name="sai">perminant</td>
+                    <td><input type="checkbox" name="sai">contract</td>
+                    <td><input type="checkbox" name="sai">other</td>
+                </tr>
+                <tr>
+                    <td>Date of Joining</td>
+                    <td><input type="date"></td>
+                    <td>job Location</td>
+                    <td>
+                        <select name="" id="">
+                            <option value="">india</option>
+                            <option value="">usa</option>
+                            <option value="">canada</option>
+
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>willing to Relocate</td>
+                    <td><input type="radio" name="sai" id="">yes</td>
+                    <td><input type="radio" name="sai">No</td>
+                </tr>
+                <table align="center">
+                <tr>
+                    <td colspan="2" align="center">   
+                    
+                        Above information is correct as per my knowledge
+                    </td>
+                    
+                </tr>
+                <tr align="center" >
+                    <td  >
+                            <input type="submit" name="submit" >
+                            
+                    </td>
+                    <td>
+                            <input type="reset" name="reset">
+                    </td>
+                </tr>
+                </table>
+            
+            
+        </div>
+    </form>
+
+
+    
+</body>
+</html>
